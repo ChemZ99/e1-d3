@@ -1,46 +1,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 body {
   font-family: "Roboto", sans-serif;
 }
+
 .top-icon {
   text-align: center;
 }
+
 .top-filler {
   text-align: center;
-  background-color: rgb(rgba(255, 196, 0, 0.288), green, blue);
   color: darkolivegreen;
+  border-top: 1px solid color(srgb rgb(255, 217, 0) green blue);
+  background-color: rgb(rgba(255, 238, 0, 0.473), green, blue);
 }
+
 .main-style {
   margin: 25%;
   margin-top: 3rem;
   margin-bottom: 0;
   border: 0 auto;
 }
+
 .orange {
   color: chocolate;
 }
-<!-- .feature {,
-  padding-left: 1em;
-  border-left: 1px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: yellow;
-} -->
+
+.end-text {
+  margin-left: 1em;
+}
 h1 {
   margin: 2rem;
 }
+
 figcaption {
+  text-align: center;
   margin-top: 10px;
   color: darkgrey;
 }
+
 article {
+  padding-left: 1em;
+  border-left: 1px solid;
+  color: darkgoldenrod;
+  margin-bottom: 5em;
 }
+
 main p {
   text-align: left;
 }
+
 main a {
   text-align: left;
 }
+
 article p {
   margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 1px solid;
+  color: rgba(0, 255, 255, 0.493);
 }
