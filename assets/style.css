@@ -10,9 +10,12 @@ body {
 
 .top-filler {
   text-align: center;
+  font-size: 0.8em;
   color: darkolivegreen;
-  border-top: 1px solid color(srgb rgb(255, 217, 0) green blue);
-  background-color: rgb(rgba(255, 238, 0, 0.473), green, blue);
+  border-top: 1px solid rgb(255, 217, 0);
+  background-color: rgba(251, 255, 0, 0.178);
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
 }
 
 .main-style {
@@ -29,6 +32,7 @@ body {
 .end-text {
   margin-left: 1em;
 }
+
 h1 {
   margin: 2rem;
 }
@@ -52,6 +56,11 @@ main p {
 
 main a {
   text-align: left;
+}
+
+main img {
+  border-radius: 2%;
+  box-shadow: 10px 5px 5px rgba(119, 136, 153, 0.473);
 }
 
 article p {
